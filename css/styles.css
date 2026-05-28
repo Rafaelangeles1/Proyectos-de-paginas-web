@@ -42,8 +42,6 @@ body{
     }
 }
 .sombra{
-    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
-    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
     box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
     background-color: var(--blanco);
     padding: 2rem;
@@ -127,4 +125,9 @@ h1,h2,h3{
 .contenido-hero .ubicacion{
     display: flex;
     align-items: center;
+}
+/*Servicios*/
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
